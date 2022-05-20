@@ -30,5 +30,6 @@ jobs:
       with:
         image: damenstar/test-actions
         registry: docker.io
+        dockerfile: .
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
